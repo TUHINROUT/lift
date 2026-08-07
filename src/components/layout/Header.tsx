@@ -2,16 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { navLinks } from "@/data/site";
 import Button from "@/components/ui/Button";
-import { 
-  ChevronDown, 
-  Home, 
-  Building2, 
-  Maximize2, 
-  Wind, 
-  Crown, 
-  Sparkles, 
-  Cpu, 
-  ShieldCheck 
+import {
+  ChevronDown,
+  Home,
+  Building2,
+  Maximize2,
+  Wind,
+  Crown,
+  Sparkles,
+  Cpu,
+  ShieldCheck
 } from "lucide-react";
 
 const iconMap: Record<string, React.ElementType> = {
@@ -29,14 +29,14 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-bg-alt/95 backdrop-blur border-b border-border">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between px-6 lg:px-10 py-4">
-        <Link href="#home" className="shrink-0 inline-flex items-center">
+        <Link href="#home" className="shrink-0 flex items-center">
           <Image
-            src="/images/logo.jpeg"
+            src="/images/logo.png"
             alt="Evio Elevator"
-            width={160}
-            height={44}
-            className="h-9 w-auto object-contain"
+            width={220}
+            height={80}
             priority
+            className="h-14 w-auto object-contain"
           />
         </Link>
 

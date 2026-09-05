@@ -5,22 +5,22 @@ import { Sparkles, ArrowRight } from "lucide-react";
 // Direct model data with verified Unsplash luxury architectural elevator photos
 const liftModelsData = [
   {
-    name: "Model Air",
-    price: "₹ 12.5 Lakh*",
+    name: "R6051 - Automatic",
+    price: "4P to 26 Passenger",
     featured: false,
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    image: "/images/lift-r6051.jpg",
   },
   {
-    name: "Model Max",
-    price: "₹ 16.8 Lakh*",
+    name: "R6053 - Hospital",
+    price: "13P to 26 Passenger",
     featured: true,
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    image: "/images/lift-r6053.jpg",
   },
   {
-    name: "Model Ultra",
-    price: "₹ 21.5 Lakh*",
+    name: "R6061 - MRL Auto",
+    price: "4P to 26 Passenger",
     featured: false,
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
+    image: "/images/lift-r6061.jpg",
   },
 ];
 
@@ -73,7 +73,7 @@ export default function LiftModels() {
                 <h3 className="font-serif text-base sm:text-lg font-bold text-text tracking-wide group-hover:text-gold transition-colors duration-300">
                   {model.name}
                 </h3>
-                <p className="text-[11px] text-text-muted mt-1 uppercase tracking-wider font-medium">Starting from</p>
+                <p className="text-[11px] text-text-muted mt-1 uppercase tracking-wider font-medium">Capacity</p>
                 <p className="text-gold font-serif text-lg sm:text-xl font-bold tracking-tight mt-0.5">{model.price}</p>
               </div>
 

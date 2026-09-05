@@ -24,217 +24,220 @@ export interface NavLink {
 }
 
 export const navLinks: NavLink[] = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/about" },
   {
     label: "Products",
-    href: "#products",
+    href: "/products",
     children: [
-      { title: "Home Lifts", description: "Compact & elegant lifts for residential spaces", href: "#products", icon: "Home" },
-      { title: "Villa Lifts", description: "Luxury vertical transit tailored for villas", href: "#products", icon: "Building2" },
-      { title: "Capsule Lifts", description: "Panoramic glass experiences with stunning views", href: "#products", icon: "Maximize2" },
-      { title: "Model Air", description: "Pneumatic vacuum lift requiring zero pit or machine room", href: "#products", icon: "Wind" },
-      { title: "Model Max", description: "Spacious luxury cabin designed for maximum comfort", href: "#products", icon: "Crown" },
-      { title: "Model Ultra", description: "State-of-the-art engineering masterpiece", href: "#products", icon: "Sparkles" },
+      { title: "R6051 - Automatic Elevator", description: "Auto passenger lift for commercial & residential buildings", href: "/products", icon: "Home" },
+      { title: "R6052 - Manual Elevator", description: "Manual passenger lift for low-rise buildings", href: "/products", icon: "Building2" },
+      { title: "R6053 - Hospital Elevator", description: "Stretcher lift built for healthcare environments", href: "/products", icon: "Maximize2" },
+      { title: "R6054 - Goods Elevator", description: "Heavy-duty lift for cargo & industrial use", href: "/products", icon: "Wind" },
+      { title: "R6061 - MRL Auto Elevator", description: "Machine Room-Less elevator for modern buildings", href: "/products", icon: "Crown" },
+      { title: "R7066 - Home / Villa Elevator", description: "Compact, stylish elevator for residential interiors", href: "/products", icon: "Sparkles" },
     ]
   },
   {
     label: "Technology",
-    href: "#technology",
+    href: "/technology",
     children: [
-      { title: "Pneumatic Vacuum System", description: "Air-driven technology requiring minimal maintenance", href: "#technology", icon: "Wind" },
-      { title: "Gearless Technology", description: "Silent, smooth, and energy-efficient operation", href: "#technology", icon: "Cpu" },
-      { title: "Smart Safety Features", description: "Automatic rescue device, overload protection & alarms", href: "#technology", icon: "ShieldCheck" },
+      { title: "PMSG Gearless Traction Motor", description: "Up to 40% energy savings with smooth, reliable performance", href: "/technology", icon: "Wind" },
+      { title: "Advanced Control System", description: "Micro-controller technology with real-time diagnostics", href: "/technology", icon: "Cpu" },
+      { title: "Smart Safety Features", description: "ERD, overload system, over-speed governor & fireman switch", href: "/technology", icon: "ShieldCheck" },
     ]
   },
-  { label: "Projects", href: "#projects" },
-  { label: "Blog", href: "#blog" },
-  { label: "Contact", href: "#contact" },
+  { label: "Projects", href: "/projects" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const heroStats: StatItem[] = [
-  { value: "15+", label: "Years of Excellence" },
-  { value: "5000+", label: "Happy Customers" },
-  { value: "25+", label: "Countries" },
+  { value: "20+", label: "Years of Excellence" },
+  { value: "7", label: "Branch Locations" },
+  { value: "6", label: "Consecutive Years Top 10" },
   { value: "100%", label: "Safety Assured" },
 ];
 
 export const trustedBrands: string[] = [
-  "DLF",
-  "Godrej",
-  "Prestige",
-  "SOBHA",
-  "BRIGADE",
-  "OMAXE",
+  "AIDC",
+  "Ahmedabad Municipal Corporation",
+  "MSME / Govt. of India",
+  "Elevator & Escalator Expo",
+  "Make In India",
+  "ISO Certified",
 ];
 
 export const whyChooseUs: FeatureItem[] = [
-  { icon: "cpu", title: "European Technology" },
+  { icon: "cpu", title: "PMSG Gearless Technology" },
   { icon: "volume", title: "Silent & Smooth Operation" },
   { icon: "clock", title: "Quick Installation" },
-  { icon: "lifebuoy", title: "Lifetime Support" },
+  { icon: "lifebuoy", title: "Pan-India Service Support" },
 ];
 
 export const liftCategories: LiftCategory[] = [
   {
-    name: "Home Lifts",
-    tagline: "Compact & Elegant",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    name: "Automatic Passenger Lift",
+    tagline: "EVIO R6051 - Smooth & Reliable",
+    image: "/images/lift-r6051.jpg",
     href: "#"
   },
   {
-    name: "Villa Lifts",
-    tagline: "Luxury Redefined",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    name: "Hospital / Stretcher Lift",
+    tagline: "EVIO R6053 - Built for Healthcare",
+    image: "/images/lift-r6053.jpg",
     href: "#"
   },
   {
-    name: "Capsule Lifts",
-    tagline: "Panoramic Experience",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
+    name: "MRL Auto Elevator",
+    tagline: "EVIO R6061 - Machine Room-Less",
+    image: "/images/lift-r6061.jpg",
     href: "#"
   },
   {
-    name: "Panoramic Lifts",
-    tagline: "See Beyond Limits",
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+    name: "Home / Villa Elevator",
+    tagline: "EVIO R7066 - Compact & Stylish",
+    image: "/images/lift-r7066.jpg",
     href: "#"
   },
 ];
 
 export const aboutStats: StatItem[] = [
-  { value: "15+", label: "Years of Excellence" },
-  { value: "5000+", label: "Installations" },
-  { value: "25+", label: "Countries" },
+  { value: "2005", label: "Founded In" },
+  { value: "18", label: "Years Top Supplier" },
+  { value: "7", label: "Branches Across India" },
   { value: "24x7", label: "Customer Support" },
 ];
 
 export const experienceTestimonials: Testimonial[] = [
   {
     name: "Rakesh Sharma",
-    location: "Bangalore",
+    location: "Bhubaneswar",
     quote:
-      "The lift has completely transformed our home. The quality and smooth experience is beyond exceptional.",
+      "The EVIO elevator has completely transformed our building. The quality and smooth ride is beyond exceptional.",
     avatar: "/images/avatar-1.jpg",
   },
   {
     name: "Priya Nair",
-    location: "Mumbai",
+    location: "Ahmedabad",
     quote:
       "Excellent product and even better service. Installation was quick and hassle free.",
     avatar: "/images/avatar-2.jpg",
   },
   {
     name: "Anirudh Mehta",
-    location: "Hyderabad",
+    location: "Kolkata",
     quote:
-      "We love the elegant design and the silent operation. Highly recommended.",
+      "We love the elegant cabin design and the silent gearless operation. Highly recommended.",
     avatar: "/images/avatar-3.jpg",
   },
 ];
 
 export const liftModels: LiftModel[] = [
-  { name: "Model Air", price: "₹ 12.5 Lakh*", image: "/images/model-air.jpg" },
-  { name: "Model Max", price: "₹ 16.8 Lakh*", image: "/images/model-max.jpg", featured: true },
-  { name: "Model Ultra", price: "₹ 21.5 Lakh*", image: "/images/model-ultra.jpg" },
+  { name: "R6051 - Automatic Elevator", price: "4P to 26 Passenger", image: "/images/lift-r6051.jpg" },
+  { name: "R6053 - Hospital Elevator", price: "13P to 26 Passenger", image: "/images/lift-r6053.jpg", featured: true },
+  { name: "R6061 - MRL Auto Elevator", price: "4P to 26 Passenger", image: "/images/lift-r6061.jpg" },
 ];
 
 export const technologyFeatures: string[] = [
-  "Gearless Technology",
-  "Pneumatic Vacuum System",
-  "Smooth & Silent Ride",
-  "Energy Efficient",
-  "Low Maintenance",
+  "Permanent Magnet Synchronous Gearless Traction Motor",
+  "Up to 40% Energy Savings",
+  "Advanced Micro-Controller Control System",
+  "Real-Time Diagnostics & Remote Monitoring",
+  "Top Advanced Door Operator System",
 ];
 
 export const installationProcess: ProcessStep[] = [
-  { step: "01", title: "Consultation", description: "Understand your needs" },
+  { step: "01", title: "Consultation", description: "Understand your building & needs" },
   { step: "02", title: "Site Visit", description: "Professional site assessment" },
-  { step: "03", title: "Manufacturing", description: "Precision built to perfection" },
+  { step: "03", title: "Manufacturing", description: "Precision built at our Surat facility" },
   { step: "04", title: "Installation", description: "Quick & clean installation" },
-  { step: "05", title: "Testing", description: "100+ quality checks" },
-  { step: "06", title: "Handover", description: "Safe & secure delivery" },
+  { step: "05", title: "Testing", description: "Multi-stage quality & safety checks" },
+  { step: "06", title: "Handover", description: "Safe & secure delivery with AMC support" },
 ];
 
 export const galleryImages: string[] = [
-  "/images/gallery-1.jpg",
-  "/images/gallery-2.jpg",
-  "/images/gallery-3.jpg",
-  "/images/gallery-4.jpg",
-  "/images/gallery-5.jpg",
+  "/images/lift-r6051.jpg",
+  "/images/control-panel.jpg",
+  "/images/door-operator.jpg",
+  "/images/cop-panel.jpg",
+  "/images/motor-heavy.jpg",
+  "/images/factory-floor1.jpg",
+  "/images/factory-floor2.jpg",
+  "/images/lift-r7066.jpg",
 ];
 
 export const safetyFeatures: string[] = [
-  "Emergency Stop",
-  "Auto Rescue Device",
-  "Overload Protection",
-  "Child Safety Lock",
-  "Fire Resistant",
+  "ERD - EVIO Rescue Device",
+  "Over Load System",
+  "Over Speed Governor",
+  "Infra Red Door Sensors",
+  "Fireman Switch",
+  "Advanced 3-Type Security (Card / Password / Biometric)",
 ];
 
 export const certifications: Certification[] = [
-  { name: "ISO Certified", icon: "iso" },
-  { name: "CE Certified", icon: "ce" },
-  { name: "Quality Certified", icon: "quality" },
+  { name: "ISO 9001:2015 Quality Management", icon: "iso" },
+  { name: "ISO 45001:2018 Occupational Health & Safety", icon: "ce" },
+  { name: "Udyam Registered (MSME, Govt. of India)", icon: "quality" },
 ];
 
-export const projectCategories: string[] = ["All", "Homes", "Villas", "Apartments", "Commercial", "Hotels"];
+export const projectCategories: string[] = ["All", "Homes", "Villas", "Hospitals", "Commercial", "Hotels"];
 
 export const projects: Project[] = [
-  { name: "Whitefield Residence", category: "Homes", image: "/images/project-1.jpg" },
-  { name: "Palm Meadows Villa", category: "Villas", image: "/images/project-2.jpg" },
-  { name: "Skyline Apartments", category: "Apartments", image: "/images/project-3.jpg" },
-  { name: "Grand Hotel Lobby", category: "Hotels", image: "/images/project-4.jpg" },
+  { name: "Bhubaneswar Residence", category: "Homes", image: "/images/lift-r7066.jpg" },
+  { name: "Ahmedabad Villa Project", category: "Villas", image: "/images/lift-r6061.jpg" },
+  { name: "City Hospital Elevator", category: "Hospitals", image: "/images/lift-r6053.jpg" },
+  { name: "Grand Hotel Lobby", category: "Hotels", image: "/images/lift-r6051.jpg" },
 ];
 
 export const customerReviews: Testimonial[] = [
   {
     name: "Rakesh Sharma",
-    location: "Bangalore",
-    quote: "The lift has completely transformed our home. The quality and smooth experience is beyond exceptional.",
+    location: "Bhubaneswar",
+    quote: "The EVIO elevator has completely transformed our building. The quality and smooth ride is beyond exceptional.",
     avatar: "/images/avatar-1.jpg",
   },
   {
     name: "Priya Nair",
-    location: "Mumbai",
+    location: "Ahmedabad",
     quote: "Excellent product and even better service. Installation was quick and hassle free.",
     avatar: "/images/avatar-2.jpg",
   },
   {
     name: "Anirudh Mehta",
-    location: "Hyderabad",
-    quote: "We love the elegant design and the silent operation. Highly recommended.",
+    location: "Kolkata",
+    quote: "We love the elegant cabin design and the silent gearless operation. Highly recommended.",
     avatar: "/images/avatar-3.jpg",
   },
 ];
 
 export const blogPosts: BlogPost[] = [
-  { title: "Benefits of Home Elevators", date: "25 Apr 2024", image: "/images/blog-1.jpg", href: "#" },
-  { title: "How to Choose the Right Home Lift", date: "18 Apr 2024", image: "/images/blog-2.jpg", href: "#" },
-  { title: "Future of Home Elevators", date: "10 Apr 2024", image: "/images/blog-3.jpg", href: "#" },
+  { title: "Benefits of Machine Room-Less (MRL) Elevators", date: "25 Apr 2024", image: "/images/lift-r6061.jpg", href: "#" },
+  { title: "How to Choose the Right Elevator for Your Building", date: "18 Apr 2024", image: "/images/lift-r6051.jpg", href: "#" },
+  { title: "Why PMSG Gearless Motors Save Up to 40% Energy", date: "10 Apr 2024", image: "/images/motor-heavy.jpg", href: "#" },
 ];
 
 export const footerLinks = {
   quickLinks: [
-    { label: "Home", href: "#home" },
-    { label: "About Us", href: "#about" },
-    { label: "Products", href: "#products" },
-    { label: "Projects", href: "#projects" },
-    { label: "Blog", href: "#blog" },
-    { label: "Contact", href: "#contact" },
+    { label: "Home", href: "/" },
+    { label: "About Us", href: "/about" },
+    { label: "Products", href: "/products" },
+    { label: "Projects", href: "/projects" },
+    { label: "Blog", href: "/blog" },
+    { label: "Contact", href: "/contact" },
   ],
   ourProducts: [
-    { label: "Home Lifts", href: "#" },
-    { label: "Villa Lifts", href: "#" },
-    { label: "Capsule Lifts", href: "#" },
-    { label: "Panoramic Lifts", href: "#" },
-    { label: "Model Air", href: "#" },
-    { label: "Model Max", href: "#" },
-    { label: "Model Ultra", href: "#" },
+    { label: "Automatic Elevator (R6051)", href: "#" },
+    { label: "Manual Elevator (R6052)", href: "#" },
+    { label: "Hospital Elevator (R6053)", href: "#" },
+    { label: "Goods Elevator (R6054)", href: "#" },
+    { label: "MRL Auto Elevator (R6061)", href: "#" },
+    { label: "Home / Villa Elevator (R7066)", href: "#" },
   ],
   support: [
     { label: "Installation", href: "#" },
-    { label: "Warranty", href: "#" },
+    { label: "AMC / Warranty", href: "#" },
     { label: "Maintenance", href: "#" },
     { label: "FAQ", href: "#" },
     { label: "Downloads", href: "#" },

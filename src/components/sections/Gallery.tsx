@@ -4,11 +4,11 @@ import { ArrowRight } from "lucide-react";
 
 // Gallery images array with high-resolution online architectural and luxury interior photos from Unsplash
 export const galleryImages: string[] = [
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+  "/images/lift-r6051.jpg",
+  "/images/control-panel.jpg",
+  "/images/door-operator.jpg",
+  "/images/cop-panel.jpg",
+  "/images/motor-heavy.jpg",
 ];
 
 export default function Gallery() {

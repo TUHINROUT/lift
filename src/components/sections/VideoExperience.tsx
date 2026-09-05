@@ -10,16 +10,11 @@ export default function VideoExperience() {
       </h2>
 
       <div className="relative rounded-2xl bg-surface border border-border aspect-video overflow-hidden shadow-2xl group flex items-center justify-center">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
+        <img
+          src="/images/factory.jpg"
+          alt="EVIO Elevator manufacturing facility"
           className="absolute inset-0 w-full h-full object-cover filter brightness-90 group-hover:scale-105 transition-transform duration-700 ease-out"
-        >
-          <source src="https://www.pexels.com/download/video/27966509/" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        />
 
         {/* Cinematic Gradient Overlay */}
         <div className="absolute inset-0 bg-dark/40 pointer-events-none" />

@@ -4,26 +4,26 @@ import { Play, Sparkles } from "lucide-react";
 
 const heroModels = [
   {
-    name: "Model Air",
-    price: "₹ 12.5 Lakh*",
+    name: "R6051 - Automatic",
+    price: "4P to 26 Passenger",
     featured: false,
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80",
+    image: "/images/lift-r6051.jpg",
   },
   {
-    name: "Model Max",
-    price: "₹ 16.8 Lakh*",
+    name: "R6053 - Hospital",
+    price: "13P to 26 Passenger",
     featured: true,
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80",
+    image: "/images/lift-r6053.jpg",
   },
   {
-    name: "Model Ultra",
-    price: "₹ 21.5 Lakh*",
+    name: "R6061 - MRL Auto",
+    price: "4P to 26 Passenger",
     featured: false,
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=400&q=80",
+    image: "/images/lift-r6061.jpg",
   },
 ];
 
-const checklist = ["No Pit", "No Machine Room", "Quick Installation"];
+const checklist = ["Machine Room-Less Option", "PMSG Gearless Motor", "Quick Installation"];
 
 export default function Hero() {
   return (
@@ -38,7 +38,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-text-muted mt-4 max-w-md text-sm sm:text-base leading-relaxed font-light">
-              Luxury Home Elevators engineered for timeless elegance, zero structural friction, and absolute safety.
+              Since 2005, EVIO Elevator has engineered reliable, eco-friendly vertical transportation with cutting-edge PMSG gearless technology and uncompromised safety.
             </p>
 
             <div className="flex flex-wrap gap-4 mt-5 text-xs font-medium text-text-muted">
@@ -75,8 +75,8 @@ export default function Hero() {
           <div className="lg:col-span-6 relative">
             <div className="rounded-3xl overflow-hidden border border-border shadow-2xl aspect-[4/3] lg:aspect-[5/4] relative">
               <img
-                src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=1200&q=80"
-                alt="Luxury home elevator installation"
+                src="/images/lift-r7066.jpg"
+                alt="EVIO home elevator installation"
                 className="w-full h-full object-cover"
               />
             </div>

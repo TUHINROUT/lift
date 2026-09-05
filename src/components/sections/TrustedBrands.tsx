@@ -2,6 +2,12 @@
 
 import { trustedBrands } from "@/data/site";
 
+const brandImages: Record<string, string> = {
+  "AIDC": "/images/logo-amc.jpg",
+  "Ahmedabad Municipal Corporation": "/images/logo-amc.jpg",
+  "MSME / Govt. of India": "/images/logo-udyam.jpg",
+};
+
 // Official vector emblem SVGs for real estate & corporate partners
 const brandLogos: Record<string, React.ReactNode> = {
   DLF: (
@@ -46,9 +52,9 @@ export default function TrustedBrands() {
       
       {/* Section Header */}
       <div className="max-w-[1440px] mx-auto px-6 lg:px-10 mb-8 text-center">
-        <p className="eyebrow tracking-[0.25em] text-gold/80 mb-1.5">Elite Collaborations</p>
+        <p className="eyebrow tracking-[0.25em] text-gold/80 mb-1.5">Recognitions & Affiliations</p>
         <h2 className="text-xl sm:text-2xl font-serif font-semibold tracking-tight text-text">
-          Trusted by <span className="text-gold italic font-normal">Leading Brands</span>
+          Certified &amp; <span className="text-gold italic font-normal">Recognized By</span>
         </h2>
       </div>
 
@@ -62,6 +68,7 @@ export default function TrustedBrands() {
         {/* Scrolling Track with Pause on Hover Class */}
         <div className="flex shrink-0 animate-marquee gap-6 items-center pause-animation">
           {marqueeItems.map((brand, index) => {
+            const logoImg = brandImages[brand];
             const logoSvg = brandLogos[brand] || (
               <svg className="w-6 h-6 text-gold" viewBox="0 0 24 24" fill="currentColor">
                 <circle cx="12" cy="12" r="10" />
@@ -74,8 +81,12 @@ export default function TrustedBrands() {
                 className="flex items-center gap-3 px-6 py-3.5 bg-surface/90 backdrop-blur-md rounded-xl border border-border shadow-md hover:border-gold/60 hover:bg-surface transition-all duration-300 group/brand min-w-[170px] cursor-pointer"
               >
                 {/* Official Logo Emblem */}
-                <div className="shrink-0 flex items-center justify-center">
-                  {logoSvg}
+                <div className="shrink-0 w-7 h-7 flex items-center justify-center rounded-full overflow-hidden bg-white ring-1 ring-border">
+                  {logoImg ? (
+                    <img src={logoImg} alt={brand} className="w-full h-full object-cover" />
+                  ) : (
+                    logoSvg
+                  )}
                 </div>
 
                 {/* Corporate Typography */}

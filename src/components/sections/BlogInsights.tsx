@@ -5,9 +5,9 @@ import { ArrowRight, Calendar } from "lucide-react";
 
 // Curated Unsplash images for blog posts matching luxury elevators and architectural design
 const blogImages = [
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
+  "/images/lift-r6061.jpg",
+  "/images/lift-r6051.jpg",
+  "/images/motor-heavy.jpg",
 ];
 
 export default function BlogInsights() {

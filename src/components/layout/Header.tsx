@@ -29,7 +29,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-bg-alt/95 backdrop-blur border-b border-border">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between px-6 lg:px-10 py-4">
-        <Link href="#home" className="shrink-0 flex items-center">
+        <Link href="/" className="shrink-0 flex items-center">
           <Image
             src="/images/logo.png"
             alt="Evio Elevator"

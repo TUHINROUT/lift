@@ -23,7 +23,7 @@ export default function AboutNibav() {
 
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold/10 border border-gold/20 text-gold text-xs font-medium tracking-widest uppercase mb-6">
-              <Sparkles className="w-3.5 h-3.5" /> Global Leader
+              <Sparkles className="w-3.5 h-3.5" /> Trusted Since 2005
             </div>
             
             <h2 className="text-3xl sm:text-4xl font-serif font-bold text-text leading-tight">
@@ -32,7 +32,7 @@ export default function AboutNibav() {
             </h2>
             
             <p className="text-text-muted mt-5 text-sm sm:text-base leading-relaxed font-light">
-              Evio Elevator is a global leader in luxury home elevators. Our mission is to deliver European technology with elegant designs to elevate your living.
+              EVIO Elevators, founded in 2005, is a modern professional elevator enterprise integrating R&D, manufacturing, sales, engineering and service. We are qualified in elevator manufacturing, installation, repair and modernization across India.
             </p>
           </div>
 
@@ -46,23 +46,18 @@ export default function AboutNibav() {
 
         {/* Middle Column: Cinematic Autoplay Video (Matched Height & Proportions) */}
         <div className="lg:col-span-4 rounded-3xl overflow-hidden border border-border/80 relative min-h-[460px] lg:min-h-full shadow-2xl group">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
+          <img
+            src="/images/team.jpg"
+            alt="EVIO Elevator team"
             className="absolute inset-0 w-full h-full object-cover filter brightness-90 group-hover:scale-105 transition-transform duration-700 ease-out"
-          >
-            <source src="https://www.pexels.com/download/video/27966509/" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          />
           
           {/* Dark Overlay Gradient */}
           <div className="absolute inset-0 bg-gradient-to-t from-dark/85 via-dark/20 to-transparent pointer-events-none" />
           
           <div className="absolute bottom-6 left-6 right-6 pointer-events-none">
-            <p className="text-xs font-serif text-gold uppercase tracking-widest font-semibold">Architectural Excellence</p>
-            <p className="text-sm text-white font-light mt-0.5">Engineered for timeless aesthetic appeal.</p>
+            <p className="text-xs font-serif text-gold uppercase tracking-widest font-semibold">Our Team</p>
+            <p className="text-sm text-white font-light mt-0.5">Engineers, technicians & support staff behind EVIO.</p>
           </div>
         </div>
 

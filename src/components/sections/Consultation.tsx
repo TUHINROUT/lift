@@ -45,10 +45,14 @@ export default function Consultation() {
               <MapPin className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gold/60 pointer-events-none" />
               <select className="w-full sm:col-span-2 bg-surface border border-border/80 rounded-full pl-11 pr-5 py-3.5 text-sm outline-none focus:border-gold text-text-muted appearance-none transition-colors cursor-pointer">
                 <option className="bg-surface text-text-muted">Select City</option>
-                <option className="bg-surface text-text">Bengaluru</option>
-                <option className="bg-surface text-text">Mumbai</option>
-                <option className="bg-surface text-text">Hyderabad</option>
                 <option className="bg-surface text-text">Bhubaneswar</option>
+                <option className="bg-surface text-text">Vishakhapatnam</option>
+                <option className="bg-surface text-text">Durgapur</option>
+                <option className="bg-surface text-text">Kolkata</option>
+                <option className="bg-surface text-text">Ahmedabad</option>
+                <option className="bg-surface text-text">Nagpur</option>
+                <option className="bg-surface text-text">Kochi</option>
+                <option className="bg-surface text-text">Rajasthan</option>
               </select>
             </div>
 
@@ -64,8 +68,8 @@ export default function Consultation() {
         {/* Right Column: Premium Image Showcase Frame */}
         <div className="lg:col-span-5 rounded-2xl bg-surface border border-border/80 aspect-video lg:aspect-[4/3] overflow-hidden relative shadow-2xl group">
           <img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
-            alt="Consultation Luxury Elevator"
+            src="/images/lift-r6061.jpg"
+            alt="EVIO MRL elevator consultation"
             className="absolute inset-0 w-full h-full object-cover filter brightness-90 group-hover:scale-105 transition-transform duration-700 ease-out"
           />
           

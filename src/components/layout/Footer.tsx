@@ -10,8 +10,8 @@ export default function Footer() {
       {/* Background Luxury Glow & Subtle Image Overlay */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
         <img
-          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80"
-          alt="Footer Background"
+          src="/images/factory.jpg"
+          alt="EVIO Elevator factory"
           className="w-full h-full object-cover filter brightness-50"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/90 to-transparent" />

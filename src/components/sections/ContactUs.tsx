@@ -2,9 +2,9 @@ import SectionLabel from "@/components/ui/SectionLabel";
 import { MapPin, Phone, Mail, Clock, ArrowUpRight } from "lucide-react";
 
 const contactDetails = [
-  { icon: <MapPin className="w-4 h-4 text-gold" />, label: "Bhubaneswar, Odisha, India" },
-  { icon: <Phone className="w-4 h-4 text-gold" />, label: "+91 98765 43210" },
-  { icon: <Mail className="w-4 h-4 text-gold" />, label: "info@evioelevator.com" },
+  { icon: <MapPin className="w-4 h-4 text-gold" />, label: "Plot No. 59/1301, Sarala Nagar, CTC Road, Bhubaneswar, Odisha - 751006" },
+  { icon: <Phone className="w-4 h-4 text-gold" />, label: "0674 - 3119140 | Toll Free: 1800 569 2884" },
+  { icon: <Mail className="w-4 h-4 text-gold" />, label: "info@evioelevators.in" },
   { icon: <Clock className="w-4 h-4 text-gold" />, label: "Mon - Sat: 9:00 AM - 7:00 PM" },
 ];
 
@@ -31,7 +31,7 @@ export default function ContactUs() {
             </h2>
             
             <p className="text-text-muted text-sm font-light mb-8 max-w-md">
-              Connect with our regional experts in Bhubaneswar or reach out via phone and email to schedule your exclusive elevator consultation.
+              Connect with our team at our Bhubaneswar head office or our branch network across India to schedule your elevator consultation.
             </p>
 
             <ul className="space-y-4">
@@ -70,8 +70,8 @@ export default function ContactUs() {
           
           {/* Simulated Map Background Image / Styled View */}
           <img
-            src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1200&q=80"
-            alt="Location Map Bhubaneswar"
+            src="/images/factory.jpg"
+            alt="EVIO Elevator head office and factory"
             className="absolute inset-0 w-full h-full object-cover filter brightness-75 contrast-125 group-hover:scale-105 transition-transform duration-700 ease-out"
           />
 
@@ -86,7 +86,7 @@ export default function ContactUs() {
               </div>
               <div>
                 <p className="font-serif font-bold text-xs text-gold-light uppercase tracking-wider">Evio Elevator</p>
-                <p className="text-[11px] text-white/70">Bhubaneswar Studio</p>
+                <p className="text-[11px] text-white/70">Head Office &amp; Factory</p>
               </div>
             </div>
           </div>
